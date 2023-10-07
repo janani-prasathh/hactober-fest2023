@@ -1,0 +1,47 @@
+#price card with optional selection
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Card with Optional Selection</title>
+    <style>
+        .price-card {
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .price {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .option-label {
+            font-size: 14px;
+        }
+
+        .option-checkbox {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="price-card">
+        <h2>Plan A</h2>
+        <div class="price">$19.99/month</div>
+        <p>Select Optional Features:</p>
+        <label class="option-label">
+            <input type="checkbox" class="option-checkbox">Feature 1 (+$5/month)
+        </label><br>
+        <label class="option-label">
+            <input type="checkbox" class="option-checkbox">Feature 2 (+$8/month)
+        </label><br>
+        <label class="option-label">
+            <input type="checkbox" class="option-checkbox">Feature 3 (+$10/month)
+        </label><br>
+        <button>Select Plan</button>
+    </div>
+</body>
+</html>
